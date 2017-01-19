@@ -1,0 +1,231 @@
+
+body{
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+*/
+}
+nav{
+  height:200px;
+  display:flex;
+  width:100%;
+
+}
+.anchor{
+  width:80px;
+  height:auto;
+  padding:0;
+  margin:0;
+
+}
+a:hover{
+   border-bottom: 2px solid #ec6713;
+}
+ul.nav-menu li{
+  font-family: 'Open Sans Condensed', sans-serif;
+  list-style-type: none;
+}
+ul.nav-menu li a {
+    color:#611616;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+.hero-container{
+  width:100%;
+  display:flex;
+}
+.nav-menu {
+  position:absolute;
+  display:inline-flex;
+  top:0;
+  font-size: 1.5em;
+  height:20%;
+  width:100%;
+  justify-content: space-between;
+}
+.hero{
+  display:flex;
+  z-index:0;
+  height:100%;
+  width:100%;
+}
+.who-we-are{
+  background-image:url("images/flipped-woodenPS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height:700px;
+  display:flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#who-we-are{
+  position:absolute;
+  display:flex;
+  margin:auto;
+  text-align:center;
+  top:10%;
+
+}
+.deckhand{
+  -webkit-box-shadow: 4px 7px 15px 5px rgba(24,87,89,1);
+-moz-box-shadow: 4px 7px 15px 5px rgba(24,87,89,1);
+box-shadow: 4px 7px 15px 5px rgba(24,87,89,1);
+  justify-content: center;
+  height:500px;
+  width:300px;
+  background-color:#47B7BC;
+  color:#faebd7;
+}
+.shadow{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+.left{
+  margin-top:50px;
+}
+.center{
+  margin-top:150px;
+}
+
+.right{
+  margin-top:50px;
+}
+.deckhand img{
+  margin:4%;
+  margin-right:6%;
+  height:50%;
+  width:93%;
+}
+
+.we-believe{
+  height:400px;
+  background-color:##00223E;
+  width:100%;
+  text-align:center;
+
+}
+.deckhand p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align:center;
+
+}
+h1{
+  color:#FF8716;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2.5em;
+  text-align: center;
+  margin:0 auto;
+  z-index:4;
+
+}
+.we-believe p{
+  margin: 0 15em;
+}
+.we-believe h3, p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align:center;
+}
+#border{
+  border-style: solid;
+  border-width: medium;
+  margin:10px;
+
+}
+
+.circles{
+  display:flex;
+  list-style-type: none;
+  margin: 20px 20%;
+  justify-content: center;
+  text-align: center;
+
+}
+.circles h2{
+  color:#295A67;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin:0 15px;
+  text-transform: uppercase;
+}
+.circles img{
+  top:0;
+  height:50px;
+  width:50px;
+}
+.plans{
+  height:300px;
+  display:flex;
+  position:relative;
+  justify-content: space-around;
+}
+.plans h2{
+  text-align: center;
+  margin:0 auto;
+}
+.daily-catch,.custom{
+  background-color:	#f1f1f1;
+  width:50%;
+  margin:0 100px;
+  display:block;
+  text-align:center;
+}
+.shadow2 {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+.plans img{
+  text-align: center;
+  padding-top:30px;
+}
+
+h2{
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+h3, p,h4{
+  text-align:center;
+  margin:0;
+  padding:10px 40px;
+}
+.plans p{
+  padding-top:0;
+}
+.plans h3{
+  color:#FF8716;
+  font-family: 'Homemade Apple', cursive;
+  font-size:1.2em;
+  padding-bottom:0
+}
+.footer{
+  width:100%;
+  height:200px;
+  display:flex;
+  background-color:#295A67;
+  color:#FFD1A5;
+  align-items: center;
+  justify-content: center;
+}
+
+img.logo{
+  justify-content: center;
+  height:50px;
+  width:auto;
+}
+
+
+.shop{
+  height:400px;
+  text-align:center;
+}
